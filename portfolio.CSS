@@ -1,4 +1,9 @@
-.title {
+.title{
+    width: auto;
+    height: auto;
+    margin-bottom: 100px;
+}
+.drone {
     display: flex;
     justify-content: center; 
     align-items: center;
