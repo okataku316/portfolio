@@ -1,5 +1,5 @@
-title video{
-    width: auto;
-    margin: 0;
-    text-align: center;
+.title video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
