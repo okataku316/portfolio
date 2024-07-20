@@ -5,7 +5,7 @@
     margin-bottom: 100px;
 }
 .title img{
-    width: 70%;
+    width: 90%;
     height: 70%;
 }
 .drone {
@@ -29,7 +29,6 @@
 .highschool {
     grid-area: highschool;
     padding: 20px;
-    background-color: #336699;
     color: white;
 }
 
@@ -40,7 +39,6 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #336699;
     color: white;
 }
 
