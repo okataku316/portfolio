@@ -10,6 +10,7 @@
 }
 .drone {
     display: grid;
+    margin: 100px;
     grid-template-areas: 
         "video video"
         "highschool dronephoto";
@@ -51,4 +52,8 @@
 .dronephoto p {
     margin-top: 10px;
     text-align: center;
+}
+
+.myproduce{
+    margin: 100px;
 }
