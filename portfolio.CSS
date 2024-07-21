@@ -30,7 +30,8 @@
 
 .highschool {
     grid-area: highschool;
-    padding: 20px;
+    padding-left: 20vw;
+    padding-right: 0;
     color: black;
 }
 
