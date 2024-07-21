@@ -31,7 +31,6 @@
 .highschool {
     grid-area: highschool;
     padding: 20px;
-    color: white;
 }
 
 .dronephoto {
@@ -41,7 +40,6 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    color: white;
 }
 
 .dronephoto img {
