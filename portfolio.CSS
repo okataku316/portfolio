@@ -8,6 +8,10 @@
     width: 90%;
     height: 70%;
 }
+.introduce{
+    display: flex;
+    flex-direction: row;
+}
 .drone {
     display: grid;
     margin: 100px;
@@ -17,8 +21,7 @@
     grid-template-rows: 2fr 1fr;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
-    height: 100vh;
-    background-color: white; /* 背景を白色に設定 */
+    background-color: white;
 }
 
 #videocontainer {
