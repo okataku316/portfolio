@@ -15,8 +15,12 @@
 
 }
 .introduce img{
-    width: 3vw;
+    width: 25vw;
 }
+.introtext{
+    padding-top: 5vh;
+}
+
 .drone {
     display: grid;
     margin: 3vw;
