@@ -1,0 +1,137 @@
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+header h1{
+    font-size: 1.5rem;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 15rem 0;
+    overflow: hidden;
+}
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+.hero-content {
+    position: relative;
+    color: white;
+}
+.hero-content h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.hero-content p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/*catch*/
+.catch {
+    text-align: center;
+    font-size: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.catch-content{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.catch-content img{
+    max-width: 50%;
+    height: auto;
+}
+.catch-content p{
+    font-size: 20px;
+    text-align: left;
+}
+
+/*menu*/
+
+.menu {
+    text-align: center;
+    font-size: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.menu-content{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.menu-content img{
+    max-width: 50%;
+    height: auto;
+}
+.menu-content p{
+    font-size: 20px;
+    text-align: left;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link h4 {
+    display: block;
+}
+.link a{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #afadad;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+/**/
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-map {
+        display: none;
+    }
+    .catch-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .catch img, .catch p {
+        max-width: 100%;
+    }
+}
