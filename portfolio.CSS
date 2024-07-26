@@ -70,6 +70,10 @@
 .myproduce{
     margin: 10vw;
 }
+.myproduce h1{
+    text-decoration: underline;
+    font-size: 20px;
+}
 .url a{
     color: black;
     font-size: 40px;
@@ -91,7 +95,7 @@
 }
 
 .languages h2{
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: underline;
 }
 .languages p{
