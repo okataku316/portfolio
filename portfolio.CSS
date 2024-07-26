@@ -72,12 +72,28 @@
 }
 .url a{
     color: black;
-    font-size: 50px;
+    font-size: 40px;
 }
 .url p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .myself{
-    margin: 1ovw;
+    margin: 10vw;
+}
+
+.other h1{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.other p{
+    font-size: 15px;
+}
+
+.languages h2{
+    font-size: 15px;
+    text-decoration: underline;
+}
+.languages p{
+    font-size: 15px;
 }
