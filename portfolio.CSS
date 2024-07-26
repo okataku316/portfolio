@@ -101,3 +101,15 @@
 .languages p{
     font-size: 15px;
 }
+
+.fixed-image {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.fixed-image img {
+    max-width: 200px; /* 画像の最大幅を設定 */
+    height: auto;
+}
